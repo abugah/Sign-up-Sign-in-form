@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <main>
+                <!-- sign up form -->
+                <div class="form signUp-form">
+                    <h2>Create Account</h2>
+                    <form>
+                        <label for="user_name">Name</label>
+                        <input type="text" id="user_name"/>
+
+                        <label for="user_email">Email</label>
+                        <input type="email" id="user_email"/>
+
+                        <label for="user_password">Password</label>
+                        <input type="password" id="user_password"/>
+
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+
+                <!-- sign in form -->
+                <div class="form signIn-form">
+                    <h2>Login</h2>
+                    <form>
+                        <label for="user_email">Email</label>
+                        <input type="email" id="user_email" />
+
+                        <label for="user_password">Password</label>
+                        <input type="password" id="user_password" />
+
+                        <button type="submit">Sign In</button>
+                    </form>
+                </div>
+            </main>
+
+            <aside>
+
+                <!-- sign in block in aside -->
+                <div class="sign-in-block">
+                    <h2>Already a User?</h2>
+
+                    <button type="submit" id="sign-in-btn">Sign In</button>
+                </div>
+
+                <!-- sign up block in aside -->
+                <div class="sign-up-block">
+                    <h2>New User?</h2>
+
+                    <button type="submit" id="sign-up-btn">Sign Up</button>
+                </div>
+            </aside>
+        </div>
+    </body>
+</html>
